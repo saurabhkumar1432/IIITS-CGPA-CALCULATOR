@@ -24,8 +24,8 @@ function setOutput(cgpa, fail) {
     if (fail)
         outputPane.innerHTML =
             "Everything will be alright 🦸. Prepare for supplies ! <br>";
-    outputPane.innerHTML += "Your Final grade for this Semester is: "+cgpa;
-  //  outputPane.innerHTML += "<span id='final-grade'>" + cgpa + "</span>";
+    outputPane.innerHTML += "Your Final grade for this Semester is: ";
+    outputPane.innerHTML += "<span id='final-grade'>" + cgpa + "</span>";
 }
 
 function validateInput(grade, credits) {
