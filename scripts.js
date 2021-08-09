@@ -98,5 +98,6 @@ function calculateGradeFunc() {
     }
 
     var cgpa = creditWeight / creditsSum;
-    setOutput(cgpa, fail);
+     outputPane.innerHTML = "Your Final grade for this Semester is: "= cgpa;
+   // setOutput(cgpa, fail);
 }
