@@ -88,7 +88,7 @@ function calculateGradeFunc() {
             credits = tds[0].innerHTML,
             grade = tds[1].innerHTML;
         creditWeight += credits * grade;
-        creditsSum += parseInt(credits);
+        creditsSum += credits;
         if (grade < 5) fail = true;
     }
 
